@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import Products from "./components/Products";
 import data from "./data.json"
 
 class App extends React.Component {
@@ -18,7 +19,14 @@ class App extends React.Component {
         <a href="/">React Shopping Cart</a>
       </header>
       <main>
-        Product List
+        <div className="content">
+          <div className="main">
+            <Products products={this.state.products}/>
+          </div>
+          <div className="sidebar">
+            Carts
+          </div>
+        </div>
       </main>
         <footer>
           All rigth is reserved
