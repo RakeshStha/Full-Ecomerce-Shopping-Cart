@@ -1,6 +1,17 @@
+import React from "react";
+import { render } from "react-dom";
+import data from "./data.json"
 
-
-function App() {
+class App extends React.Component {
+  constructor(){
+    super();
+    this.state={
+        products: data.products,
+        size:"",
+        sort:"",
+    };
+  }
+  render(){
   return (
     <div className="grid-container">
       <header>
@@ -15,6 +26,7 @@ function App() {
       
     </div>
   );
+}
 }
 
 export default App;
