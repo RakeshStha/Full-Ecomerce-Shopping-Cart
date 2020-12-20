@@ -111,7 +111,7 @@ class App extends React.Component {
         </div>
       </main>
         <footer>
-          Design and Developed by <a href="https://www.shrestharakesh.com.np/">Rakesh Shrestha</a>.
+          Design and Developed by &nbsp; <b><a className="foot" href="https://www.shrestharakesh.com.np/">Rakesh Shrestha</a></b>.
         </footer>
       
     </div>
