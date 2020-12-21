@@ -44,7 +44,7 @@
             "_id":"dress6",
             "title":"Dress 6",
             "description": "about dress 6",
-            "image": "/images/dress6.jpg",
+            "image": "/images/dress6.jpg", 
             "price": 87,
             "availableSizes": ["XL","XXL"]
         }

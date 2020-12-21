@@ -3,10 +3,11 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const shortid = require("shortid");
 
-
+//var data= require(""./build/data.json");
 const app = express();
 app.use(bodyParser.json());
 
+//mongodb
 mongoose.connect("mongodb://localhost/react-shoppinf-cart-db",{
     useNewUrlParser:true,
     useCreateIndex:true,
