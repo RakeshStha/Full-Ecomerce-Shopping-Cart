@@ -36,8 +36,8 @@ app.post("/api/products", async (req, res)=>{
     res.send(saveProduct);
 });
 
-app.delete("/api/product/:id", async(req,res)=>{
-    const deletedProduct = await Product.findByIdAndDelete(req.prams.id);
+app.delete("/api/products/:id", async(req,res)=>{
+    const deletedProduct = await Product.findByIdAndDelete(req.params.id);
     res.send(deletedProduct);
 });
 
